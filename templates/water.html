@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Hi Suskriti</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width"> 
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <style>
+          #picRow{
+            visibility: hidden;
+          }
+          #funnyImg{
+            border-radius: 200px;
+          }
+          body{
+            background-image: url("https://images.pexels.com/photos/207301/pexels-photo-207301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+            background-attachment: scroll;
+	  }
+          p {
+            text-align: center;
+            color: white;
+            font-size: 60px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+          }
+      </style>
+
+    <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var oldData = 0;
+        var runIt = "off";
+        var InfiniteAjaxRequest = function () {
+                $.ajax({
+                url: "/timer",
+                success: function(data) {
+                // do something with "data"
+                var status = runIt;
+                if (data == "stop") {
+                   $("#countTime").html("");
+                   status = "off";
+                }
+                else{
+                     var hrs = parseInt(data / 3600);
+                     var mins = parseInt((data % 3600) / 60);
+                     var secs = data % 60;
+                     $("#countTime").html(hrs.toString().padStart(2, '0')+":"+mins.toString().padStart(2, '0')+":"+secs.toString().padStart(2, '0'));
+                }
+                if ( status == "on") {
+                    setTimeout(InfiniteAjaxRequest, 500);
+                }
+                else{
+                  $("#countTime").html("");
+                  $("#funnyImg").css('visibility', 'hidden');
+                }
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                    console.log(thrownError);
+                 } 
+               });
+          };
+            
+          $("#showButton").click(function(){
+              $("#funnyImg").css('visibility', 'visible');
+              $.get("/changePin/on");
+              runIt = "on";
+              InfiniteAjaxRequest();
+	      $("#showButton").toggleClass("pulse",false);
+	      M.toast({html: 'Hello hi qt pie!'})
+          });
+
+          $("#hideButton").click(function(){
+            runIt = "off";
+            $("#funnyImg").css('visibility', 'hidden');
+            $.get("/changePin/off"); 
+	    $("#showButton").toggleClass("pulse",true);
+	    M.toast({html: 'Bye bye qt pie!'})
+          });
+
+          $.get("/changePin/status", function(data, status){
+              if( data == "on" ){
+                runIt = "on";
+                InfiniteAjaxRequest();
+                $("#funnyImg").css('visibility', 'visible');
+	        $("#showButton").toggleClass("pulse",true);
+	      } 
+          }, "text");
+
+      });
+      
+    </script>
+    </head>
+
+    <body >
+
+      <!--JavaScript at end of body for optimized loading-->
+
+      <div class="container center" >
+        <div class="row" style="margin-top: 100px">
+          <div class="col s12">
+              <p id="countTime" class="flowtext z-depth-5 "></p>
+          </div>
+           <div class="col s12" >
+              <div id=buttonsHolder class="section scrollspy">
+                <button id="showButton" name="onButton" class="waves-effect waves-dark purple accent-4 pulse  btn-large" ><i class="material-icons left">beach_access</i>Drip Drip</button>
+                <br><br><br>       
+                <button id="hideButton" name="offButton" class="waves-effect waves-light btn-large" ><i class="material-icons left">cloud</i>No Drip Drip</button>
+              </div> 
+            </div>
+          </div>
+
+          <div id="picRow" class="row">
+            <div class="col s12" >
+              <img id="funnyImg" src="https://78.media.tumblr.com/53338321e155f8a508b719153332f3d5/tumblr_pbkaglO6lB1qan9upo1_r3_640.gif" alt="FunnyImg" height = "80%" width="100%"  >
+            </div>
+          </div>
+      </div>
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+
+    </body>
+  </html>

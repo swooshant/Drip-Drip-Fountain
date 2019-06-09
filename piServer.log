@@ -1,0 +1,544 @@
+ * Running on http://192.168.1.233:5000/ (Press CTRL+C to quit)
+192.168.1.180 - - [27/Nov/2018 15:30:39] "GET / HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:30:39] "GET /changePin/status HTTP/1.1" 301 -
+192.168.1.180 - - [27/Nov/2018 15:30:40] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:30:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.180 - - [27/Nov/2018 15:30:42] "GET /changePin/on HTTP/1.1" 301 -
+192.168.1.180 - - [27/Nov/2018 15:30:42] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:30:43] "GET /changePin/on/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:04] "GET /changePin/off HTTP/1.1" 301 -
+192.168.1.180 - - [27/Nov/2018 15:31:04] "GET /changePin/off/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:07] "GET /changePin/on/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:19] "GET /changePin/off/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:31:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:32:57] "GET / HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:32:57] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:32:59] "GET /changePin/on/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:32:59] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:32:59] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:00] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:00] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:01] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:01] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:02] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:03] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:03] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:04] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:04] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:05] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:05] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:06] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:06] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:21] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:21] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:22] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:22] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:23] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:23] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:24] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:24] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:25] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:26] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:26] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:27] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:27] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:28] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:28] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:29] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:29] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:30] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:30] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:31] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:31] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:32] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:32] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:33] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:33] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:34] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:34] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:35] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:36] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:36] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:37] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:38] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:38] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:39] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:39] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:40] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:40] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:41] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:41] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:42] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:42] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:43] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:43] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:44] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:44] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:45] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:45] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:46] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:46] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:47] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:47] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:48] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:49] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:49] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:50] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:50] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:51] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:51] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:52] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:52] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:53] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:53] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:54] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:54] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:55] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:55] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:56] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:56] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:57] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:57] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:58] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:58] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:33:59] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:00] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:00] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:01] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:01] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:02] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:02] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:03] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:03] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:04] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:04] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:05] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:05] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:06] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:06] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:21] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:21] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:22] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:23] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:23] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:24] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:24] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:25] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:25] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:26] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:26] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:27] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:27] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:28] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:28] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:29] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:29] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:30] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:30] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:31] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:31] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:32] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:32] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:33] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:34] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:34] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:35] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:35] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:36] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:36] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:37] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:37] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:38] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:38] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:39] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:39] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:40] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:40] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:41] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:41] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:42] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:43] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:43] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:44] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:44] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:45] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:45] "GET /changePin/off/ HTTP/1.1" 200 -
+192.168.1.180 - - [27/Nov/2018 15:34:45] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:05] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:05] "GET /changePin/status HTTP/1.1" 301 -
+192.168.1.1 - - [27/Nov/2018 16:33:05] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:05] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.1 - - [27/Nov/2018 16:33:07] "GET /changePin/on HTTP/1.1" 301 -
+192.168.1.1 - - [27/Nov/2018 16:33:07] "GET /timer HTTP/1.1" 301 -
+192.168.1.1 - - [27/Nov/2018 16:33:07] "GET /changePin/on/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:33:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:00] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:00] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.1 - - [27/Nov/2018 16:35:00] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:01] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:02] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:02] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:03] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:03] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:04] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:04] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:05] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:05] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:06] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:07] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:08] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:09] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:10] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:11] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:12] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:13] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:16] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:17] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:18] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:19] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 16:35:20] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:13:15] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:13:16] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:13:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.1 - - [27/Nov/2018 17:13:17] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:13:18] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:13:18] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:14:01] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:14:01] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+192.168.1.1 - - [27/Nov/2018 17:14:01] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.1 - - [27/Nov/2018 17:14:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.1 - - [27/Nov/2018 17:14:41] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:14:41] "GET /changePin/status HTTP/1.1" 301 -
+192.168.1.1 - - [27/Nov/2018 17:14:41] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Nov/2018 17:14:41] "GET /favicon.ico HTTP/1.1" 404 -
+8.30.81.2 - - [27/Nov/2018 17:20:59] "GET / HTTP/1.1" 200 -
+8.30.81.2 - - [27/Nov/2018 17:21:00] "GET /changePin/status HTTP/1.1" 301 -
+8.30.81.2 - - [27/Nov/2018 17:21:00] "GET /changePin/status/ HTTP/1.1" 200 -
+166.172.60.28 - - [27/Nov/2018 19:03:40] "GET / HTTP/1.1" 200 -
+166.172.60.28 - - [27/Nov/2018 19:03:40] "GET /changePin/status/ HTTP/1.1" 200 -
+166.172.60.28 - - [27/Nov/2018 19:03:40] "GET /favicon.ico HTTP/1.1" 404 -
+185.143.223.249 - - [28/Nov/2018 02:55:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.143.223.249 - - [28/Nov/2018 02:55:13] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.143.223.249 - - [28/Nov/2018 03:02:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.143.223.249 - - [28/Nov/2018 03:02:48] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.156.177.76 - - [28/Nov/2018 04:28:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.76 - - [28/Nov/2018 04:28:36] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+8.30.81.2 - - [28/Nov/2018 18:14:19] "GET /changePin/status/ HTTP/1.1" 200 -
+185.156.177.200 - - [28/Nov/2018 19:35:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.200 - - [28/Nov/2018 19:35:05] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.156.177.200 - - [28/Nov/2018 19:35:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.200 - - [28/Nov/2018 19:35:05] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+89.248.172.16 - - [28/Nov/2018 23:35:33] "GET / HTTP/1.1" 200 -
+89.248.172.16 - - [28/Nov/2018 23:35:37] "GET /favicon.ico HTTP/1.1" 404 -
+172.58.152.0 - - [29/Nov/2018 14:15:35] "GET /favicon.ico HTTP/1.1" 404 -
+172.58.152.0 - - [29/Nov/2018 14:15:35] "GET /changePin/status/ HTTP/1.1" 200 -
+194.28.112.141 - - [30/Nov/2018 04:34:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+194.28.112.141 - - [30/Nov/2018 04:34:08] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+194.28.112.141 - - [30/Nov/2018 04:34:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+194.28.112.141 - - [30/Nov/2018 04:34:09] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+209.17.96.194 - - [30/Nov/2018 12:20:53] "GET / HTTP/1.1" 200 -
+196.52.43.97 - - [30/Nov/2018 18:30:54] "GET / HTTP/1.0" 200 -
+54.92.183.57 - - [30/Nov/2018 18:42:33] "GET / HTTP/1.1" 200 -
+5.8.18.70 - - [01/Dec/2018 09:39:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+5.8.18.70 - - [01/Dec/2018 09:39:09] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.234.217.37 - - [01/Dec/2018 17:00:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.234.217.37 - - [01/Dec/2018 17:00:11] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.234.217.37 - - [01/Dec/2018 17:00:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.234.217.37 - - [01/Dec/2018 17:00:11] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.92.73.138 - - [01/Dec/2018 22:42:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.92.73.138 - - [01/Dec/2018 22:42:47] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.234.217.37 - - [02/Dec/2018 16:30:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.234.217.37 - - [02/Dec/2018 16:30:01] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.234.217.37 - - [02/Dec/2018 16:30:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.234.217.37 - - [02/Dec/2018 16:30:01] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+107.170.212.95 - - [03/Dec/2018 10:43:50] "GET / HTTP/1.1" 200 -
+192.168.1.180 - - [04/Dec/2018 10:34:49] "GET / HTTP/1.1" 200 -
+192.168.1.180 - - [04/Dec/2018 10:34:49] "GET /changePin/status HTTP/1.1" 301 -
+192.168.1.180 - - [04/Dec/2018 10:34:49] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:35:07] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:35:07] "GET /changePin/status HTTP/1.1" 301 -
+192.168.1.1 - - [04/Dec/2018 10:35:07] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:35:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.1 - - [04/Dec/2018 10:36:14] "GET /changePin/on HTTP/1.1" 301 -
+192.168.1.1 - - [04/Dec/2018 10:36:14] "GET /timer HTTP/1.1" 301 -
+192.168.1.1 - - [04/Dec/2018 10:36:14] "GET /changePin/on/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:36:14] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:36:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:36:15] "GET /timer/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:36:16] "GET /changePin/off HTTP/1.1" 301 -
+192.168.1.1 - - [04/Dec/2018 10:36:16] "GET /changePin/off/ HTTP/1.1" 200 -
+192.168.1.1 - - [04/Dec/2018 10:36:16] "GET /timer/ HTTP/1.1" 200 -
+196.52.43.100 - - [04/Dec/2018 21:38:07] "GET / HTTP/1.0" 200 -
+54.153.95.254 - - [06/Dec/2018 10:32:53] "GET / HTTP/1.1" 200 -
+5.8.18.70 - - [06/Dec/2018 14:26:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+5.8.18.70 - - [06/Dec/2018 14:26:22] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.153.198.250 - - [06/Dec/2018 15:13:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.153.198.250 - - [06/Dec/2018 15:13:39] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.153.198.250 - - [06/Dec/2018 15:13:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.153.198.250 - - [06/Dec/2018 15:13:40] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+194.28.112.141 - - [06/Dec/2018 23:09:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+194.28.112.141 - - [06/Dec/2018 23:09:46] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+194.28.112.141 - - [06/Dec/2018 23:09:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+194.28.112.141 - - [06/Dec/2018 23:09:46] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+196.52.43.104 - - [07/Dec/2018 05:07:33] "GET / HTTP/1.0" 200 -
+167.99.187.120 - - [07/Dec/2018 08:29:00] "GET / HTTP/1.0" 200 -
+45.56.79.13 - - [07/Dec/2018 12:04:40] "GET / HTTP/1.0" 200 -
+185.92.73.138 - - [08/Dec/2018 00:07:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.92.73.138 - - [08/Dec/2018 00:07:46] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.92.73.138 - - [08/Dec/2018 16:57:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.92.73.138 - - [08/Dec/2018 16:57:44] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.197.74.218 - - [09/Dec/2018 04:12:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.197.74.218 - - [09/Dec/2018 04:12:37] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.197.74.218 - - [09/Dec/2018 04:12:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.197.74.218 - - [09/Dec/2018 04:12:37] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+111.206.52.124 - - [09/Dec/2018 07:43:19] "GET / HTTP/1.0" 200 -
+178.194.117.156 - - [09/Dec/2018 14:44:01] "GET / HTTP/1.1" 200 -
+185.153.197.12 - - [10/Dec/2018 05:59:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.197.12 - - [10/Dec/2018 05:59:30] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.153.197.10 - - [10/Dec/2018 07:44:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.197.10 - - [10/Dec/2018 07:44:41] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+196.52.43.123 - - [10/Dec/2018 22:04:46] "GET / HTTP/1.0" 200 -
+193.238.46.41 - - [11/Dec/2018 17:19:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+193.238.46.41 - - [11/Dec/2018 17:19:53] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+185.153.197.12 - - [12/Dec/2018 07:14:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.197.12 - - [12/Dec/2018 07:14:15] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.153.197.12 - - [12/Dec/2018 15:15:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.197.12 - - [12/Dec/2018 15:15:09] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+54.193.59.2 - - [13/Dec/2018 03:43:51] "GET / HTTP/1.1" 200 -
+198.108.67.48 - - [13/Dec/2018 18:29:14] "GET / HTTP/1.1" 200 -
+196.52.43.86 - - [13/Dec/2018 21:21:41] "GET / HTTP/1.0" 200 -
+66.240.192.138 - - [14/Dec/2018 13:58:21] "GET / HTTP/1.1" 200 -
+66.240.192.138 - - [14/Dec/2018 13:58:22] "GET /favicon.ico HTTP/1.1" 404 -
+95.117.64.75 - - [14/Dec/2018 16:07:00] "GET / HTTP/1.1" 200 -
+95.117.64.75 - - [14/Dec/2018 16:07:00] "GET /E3F1DE4B-6CA5-FEDB-BD43-DBDEF9CEB26D HTTP/1.1" 404 -
+122.228.19.79 - - [14/Dec/2018 17:54:28] "GET / HTTP/1.1" 200 -
+198.108.67.48 - - [15/Dec/2018 18:40:37] "GET / HTTP/1.1" 200 -
+164.52.24.175 - - [16/Dec/2018 03:51:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01"\x01\x00\x01')
+164.52.24.175 - - [16/Dec/2018 03:51:43] "" "TnÿÐowñ/îþüÖrÔ³:_*^yIû<¨  À0À,À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+164.52.24.175 - - [16/Dec/2018 03:51:46] "GET / HTTP/1.1" 200 -
+185.197.74.230 - - [16/Dec/2018 15:26:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+185.197.74.230 - - [16/Dec/2018 15:26:45] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+193.238.46.41 - - [16/Dec/2018 16:25:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+193.238.46.41 - - [16/Dec/2018 16:25:44] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+195.154.61.206 - - [17/Dec/2018 06:13:24] "GET / HTTP/1.1" 200 -
+178.156.7.247 - - [17/Dec/2018 07:08:34] "GET / HTTP/1.1" 200 -
+178.156.7.247 - - [17/Dec/2018 07:08:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x037)\x02\x90¨')
+178.156.7.247 - - [17/Dec/2018 07:08:34] "  ü7)¨-¹òe+´¾lstÁ9ÁÈÎ2pa¶Né¸  vÀ0À,À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+193.238.46.96 - - [18/Dec/2018 07:01:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+193.238.46.96 - - [18/Dec/2018 07:01:25] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+193.238.46.96 - - [18/Dec/2018 07:01:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+193.238.46.96 - - [18/Dec/2018 07:01:25] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.156.177.20 - - [18/Dec/2018 08:55:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.20 - - [18/Dec/2018 08:55:51] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.153.198.232 - - [18/Dec/2018 13:51:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.198.232 - - [18/Dec/2018 13:51:28] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+196.52.43.114 - - [18/Dec/2018 16:45:11] "GET / HTTP/1.0" 200 -
+81.22.45.54 - - [19/Dec/2018 14:50:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+81.22.45.54 - - [19/Dec/2018 14:50:31] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+81.22.45.54 - - [19/Dec/2018 14:50:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+81.22.45.54 - - [19/Dec/2018 14:50:31] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+46.161.27.112 - - [19/Dec/2018 15:38:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+46.161.27.112 - - [19/Dec/2018 15:38:09] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+195.206.253.152 - - [19/Dec/2018 21:36:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+195.206.253.152 - - [19/Dec/2018 21:36:10] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+194.28.112.7 - - [20/Dec/2018 03:37:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+194.28.112.7 - - [20/Dec/2018 03:37:47] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+194.28.112.7 - - [20/Dec/2018 03:37:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+194.28.112.7 - - [20/Dec/2018 03:37:47] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+13.57.13.135 - - [20/Dec/2018 06:26:05] "GET / HTTP/1.1" 200 -
+196.52.43.119 - - [21/Dec/2018 21:48:16] "GET / HTTP/1.0" 200 -
+185.153.197.11 - - [22/Dec/2018 06:33:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.197.11 - - [22/Dec/2018 06:33:12] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+5.101.40.34 - - [22/Dec/2018 10:02:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+5.101.40.34 - - [22/Dec/2018 10:02:36] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.153.197.13 - - [23/Dec/2018 09:36:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.153.197.13 - - [23/Dec/2018 09:36:21] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.92.73.227 - - [23/Dec/2018 17:41:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.92.73.227 - - [23/Dec/2018 17:41:09] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+77.72.83.225 - - [24/Dec/2018 11:44:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+77.72.83.225 - - [24/Dec/2018 11:44:26] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+93.174.95.106 - - [24/Dec/2018 14:39:46] "GET / HTTP/1.1" 200 -
+93.174.95.106 - - [24/Dec/2018 14:39:52] "GET /favicon.ico HTTP/1.1" 404 -
+208.100.26.232 - - [25/Dec/2018 02:41:15] "GET / HTTP/1.0" 200 -
+208.100.26.232 - - [25/Dec/2018 02:43:13] "GET / HTTP/1.0" 200 -
+208.100.26.232 - - [25/Dec/2018 02:43:13] "GET /nmaplowercheck1545723793 HTTP/1.1" 404 -
+208.100.26.232 - - [25/Dec/2018 02:43:13] "POST /sdk HTTP/1.1" 404 -
+208.100.26.232 - - [25/Dec/2018 02:43:18] "GET / HTTP/1.1" 200 -
+208.100.26.232 - - [25/Dec/2018 02:43:18] "GET /HNAP1 HTTP/1.1" 404 -
+208.100.26.232 - - [25/Dec/2018 02:43:18] "GET / HTTP/1.1" 200 -
+208.100.26.232 - - [25/Dec/2018 02:43:18] "GET /evox/about HTTP/1.1" 404 -
+196.52.43.60 - - [25/Dec/2018 04:25:37] "GET / HTTP/1.0" 200 -
+110.4.40.154 - - [25/Dec/2018 07:19:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+110.4.40.154 - - [25/Dec/2018 07:19:07] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.108.67.48 - - [25/Dec/2018 18:56:22] "GET / HTTP/1.1" 200 -
+46.161.27.112 - - [27/Dec/2018 02:06:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+46.161.27.112 - - [27/Dec/2018 02:06:57] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+185.197.74.247 - - [27/Dec/2018 05:19:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.197.74.247 - - [27/Dec/2018 05:19:24] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+80.82.77.139 - - [27/Dec/2018 10:21:46] "GET / HTTP/1.1" 200 -
+80.82.77.139 - - [27/Dec/2018 10:21:46] "GET /favicon.ico HTTP/1.1" 404 -
+54.153.34.108 - - [27/Dec/2018 12:05:20] "GET / HTTP/1.1" 200 -
+196.52.43.118 - - [27/Dec/2018 21:27:36] "GET / HTTP/1.0" 200 -
+125.64.94.197 - - [28/Dec/2018 05:21:53] "GET / HTTP/1.0" 200 -
+82.202.249.205 - - [28/Dec/2018 16:01:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+82.202.249.205 - - [28/Dec/2018 16:01:41] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+82.202.249.205 - - [28/Dec/2018 16:01:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+82.202.249.205 - - [28/Dec/2018 16:01:41] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.53.91.26 - - [29/Dec/2018 04:19:43] "GET / HTTP/1.1" 200 -
+185.53.91.26 - - [29/Dec/2018 04:19:43] "GET / HTTP/1.1" 200 -
+185.53.91.26 - - [29/Dec/2018 04:19:44] "GET / HTTP/1.1" 200 -
+122.228.19.80 - - [29/Dec/2018 22:35:40] "GET / HTTP/1.1" 200 -
+42.236.10.89 - - [31/Dec/2018 03:39:40] "GET / HTTP/1.0" 200 -
+42.236.10.108 - - [31/Dec/2018 03:41:19] "GET /nmaplowercheck1546245679 HTTP/1.1" 404 -
+42.236.10.82 - - [31/Dec/2018 03:41:19] "POST /sdk HTTP/1.1" 404 -
+42.236.10.104 - - [31/Dec/2018 03:41:19] "GET / HTTP/1.1" 200 -
+42.236.10.109 - - [31/Dec/2018 03:41:19] "GET / HTTP/1.0" 200 -
+42.236.10.89 - - [31/Dec/2018 03:41:19] "GET /evox/about HTTP/1.1" 404 -
+42.236.10.105 - - [31/Dec/2018 03:41:19] "GET / HTTP/1.1" 200 -
+42.236.10.113 - - [31/Dec/2018 03:41:19] "GET /HNAP1 HTTP/1.1" 404 -
+196.52.43.89 - - [01/Jan/2019 21:25:19] "GET / HTTP/1.0" 200 -
+194.147.32.50 - - [02/Jan/2019 01:00:30] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03zÔè\x81d´1s\x10]\x10\x14,Y\x85\x0b,A¾hÂ×\x12#¨\x8d)\x85/¸.å\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [02/Jan/2019 01:00:30] " Þ  ÚzÔèd´1s],Y,A¾hÂ×#¨)/¸.å  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [02/Jan/2019 06:01:45] code 400, message Bad request version ('\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [02/Jan/2019 06:01:45] " Þ  ÚØLÞý±ÏÿëM©ÒþOÐyO,FØ$èDwpà¼>  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+40.81.74.67 - - [02/Jan/2019 06:56:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+40.81.74.67 - - [02/Jan/2019 06:56:12] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [02/Jan/2019 11:01:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03]~m¤Êú-ò&\x18äkÀ:¶ËfÒóòÝ½\x1bh-\x14\x9c&Ö\x12G\x03\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00')
+194.147.32.50 - - [02/Jan/2019 11:01:26] " Þ  Ú]~m¤Êú-ò&äkÀ:¶ËfÒóòÝ½h-&ÖG  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [02/Jan/2019 16:02:59] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03\xa0Ú\x9dfd5Ãk\x96Q\x9d\x1eF¿;#\xadùxq\x14®\x1a\x00\x83ª%dKyjÒ\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [02/Jan/2019 16:02:59] " Þ  Ú Úfd5ÃkQF¿;#­ùxq® ª%dKyjÒ  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+185.156.177.156 - - [02/Jan/2019 20:42:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.156 - - [02/Jan/2019 20:42:27] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [02/Jan/2019 21:02:55] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03\x1b·pL´[\x86$^d\x8fP9\x97*e\x97¸ \x86}¿\x82\x0b¹1Ö\x9f¢ú/\x81\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [02/Jan/2019 21:02:55] " Þ  Ú·pL´[$^dP9*e¸ }¿¹1Ö¢ú/  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [03/Jan/2019 02:31:44] "GET / HTTP/1.1" 200 -
+198.108.67.48 - - [03/Jan/2019 03:53:11] "GET / HTTP/1.1" 200 -
+194.147.32.50 - - [03/Jan/2019 07:50:08] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03Ù\x8b1\x1a:\x9f\x85]rÊzcÁ$¿$í¹VHáÊA°Ù+óÍØø\x1cÿ\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [03/Jan/2019 07:50:08] " Þ  ÚÙ1:]rÊzcÁ$¿$í¹VHáÊA°Ù+óÍØøÿ  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+107.173.80.154 - - [03/Jan/2019 11:19:57] code 400, message Bad HTTP/0.9 request type ('RFB')
+107.173.80.154 - - [03/Jan/2019 11:19:57] "RFB 003.003" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [03/Jan/2019 12:44:50] code 400, message Bad request version ('\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [03/Jan/2019 12:44:50] " Þ  Úa?@`«I¼BæÝ	J_·ÉäýJ|<M{ôÀÉ§  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+52.55.181.205 - - [03/Jan/2019 14:26:24] "GET / HTTP/1.1" 200 -
+194.147.32.50 - - [03/Jan/2019 15:38:56] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03X\x01¢v»Î -H\x04n\x10\x17ÇÜ>X\x1fê¾Þ"uÐµ\x9cD\x1bÅw\xa0í\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [03/Jan/2019 15:38:56] " Þ  ÚX¢v»Î -HnÇÜ>Xê¾Þ"uÐµDÅw í  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+185.156.177.156 - - [03/Jan/2019 15:40:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.156 - - [03/Jan/2019 15:40:25] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [03/Jan/2019 18:32:48] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03C¹IÝÊ')
+194.147.32.50 - - [03/Jan/2019 18:32:48] " Þ  ÚC¹IÝÊ" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [03/Jan/2019 21:25:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03Ó\x82,\x01\x9bó>\x81\x8a\x05\x03×ÁÛa}!Jäo}½ibügÿ\x9a¼>\x8eC\x00\x00nÀ0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00')
+194.147.32.50 - - [03/Jan/2019 21:25:25] " Þ  ÚÓ,ó>×ÁÛa}!Jäo}½ibügÿ¼>C  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [04/Jan/2019 00:21:58] code 400, message Bad request syntax ('\x16\x03\x01\x00Þ\x01\x00\x00Ú\x03\x03ï¦O}]\x98\x983¢v¥')
+194.147.32.50 - - [04/Jan/2019 00:21:58] " Þ  Úï¦O}]3¢v¥" HTTPStatus.BAD_REQUEST -
+194.147.32.50 - - [04/Jan/2019 03:07:36] "GET / HTTP/1.1" 200 -
+194.147.32.50 - - [04/Jan/2019 06:03:40] code 400, message Bad request version ('\x00\x9eÀ(À$À\x14À')
+194.147.32.50 - - [04/Jan/2019 06:03:40] " Þ  ÚWÄ2ïqÈpEÛ6ÚK	iòíâ%nêÆû¼Üli"  nÀ0À,À2À.À/À+À1À- ¥ £ ¡  ¤ ¢   À(À$ÀÀ" HTTPStatus.BAD_REQUEST -
+185.222.211.18 - - [04/Jan/2019 08:30:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.18 - - [04/Jan/2019 08:30:37] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+106.75.3.52 - - [04/Jan/2019 12:07:58] "GET / HTTP/1.0" 200 -
+106.75.2.81 - - [04/Jan/2019 12:07:58] "GET / HTTP/1.1" 200 -
+158.85.81.114 - - [04/Jan/2019 19:56:09] "GET / HTTP/1.0" 200 -

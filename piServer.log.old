@@ -1,0 +1,7 @@
+nohup: ignoring input
+ * Running on http://192.168.1.233:5000/ (Press CTRL+C to quit)
+192.168.1.180 - - [16/Sep/2018 12:54:32] "GET / HTTP/1.1" 200 -
+192.168.1.180 - - [16/Sep/2018 12:54:32] "GET /changePin/status/ HTTP/1.1" 200 -
+192.168.1.180 - - [16/Sep/2018 12:54:35] "GET /changePin/on/ HTTP/1.1" 200 -
+192.168.1.1 - - [16/Sep/2018 13:01:44] "GET / HTTP/1.1" 200 -
+192.168.1.1 - - [16/Sep/2018 13:01:45] "GET /changePin/status/ HTTP/1.1" 200 -
